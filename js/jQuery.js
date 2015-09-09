@@ -30,7 +30,7 @@ var
   core_strundefined = typeof undefined,
 
   // Use the correct document accordingly with window argument (sandbox)
-  location = window.location,
+  // location = window.location,
   document = window.document,
   docElem = document.documentElement,
 

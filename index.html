@@ -8,7 +8,7 @@ I can't wait to see the resumes you put together!
 
 Cameron Pittman, Udacity Course Developer
 -->
-
+<html>
 <!--
 The <head> of a website generally links to important resources the page will
 need to load. You'll see a lot of <link>s to CSS files for styles and
@@ -22,7 +22,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   <title>Resume</title>
 
   <!-- Load the page styles. -->
-  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet">
 
   <!--
   jQuery is a common JavaScript library for reading and making changes to the
@@ -46,13 +46,29 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   Uncomment the <script> tag below when you're ready to add an interactive
   Google Map to your resume!
   -->
-  <!-- <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script> -->
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
 
   <meta name="viewport" content="width=device-width">
 </head>
-<body unresolved>
+<body>
+    <div class="container">
+  <nav id="drawer" class="darkgray">
+    <h2 class="white-text">My Resume</h2>
+    <br><br>
+    <a href="#online-course" class="white-text">Online Classes</a>
+    <br><br>
+    <a href="#projects" class="white-text">Projects</a>
+    <br><br>
+    <a href="#workExperience" class="white-text">Work Experience</a>
+    <br><br>
+    <a href="#education" class="white-text">Education</a>
+    <br><br>
+    <a href="#mapDiv" class="white-text">Where I've Lived and Worked</a>
+    <br><br>
+    <a href="#lets-connect" class="white-text">Let's Connect</a>
+  </nav>
+</div>
   <div id="main">
-    Hello world!   <!-- You'll be deleting this line in the course -->
 
     <!--
     Everything from here to the <script> tag below is the skeleton of your
@@ -60,28 +76,51 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
     resume below. You can pretty easily figure out what each section will
     display by looking at the id or at what's written between the <h2> tags.
     -->
-    <div id="header" class="center-content clearfix">
-      <ul id="topContacts" class='flex-box'></ul>
+
+      <div class="row nametitle darkgray">
+      <div id="fixed-elem" class="darkgray">
+           <a id="menu">
+      <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+            <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
+          </svg>
+    </a>
+      <h1 class="fm">Steve Huang: Web Developer Hopeful</h1>
+      </div>
+      <div id="header" class="center-content clear-fix">
+      <hr>
+        <ul id="topContacts" class="flex-box"></ul>
+      </div>    <div style="clear: both;"></div>
+      </div>
+      <div class="bodysec">
+        <div id="online-course" class="lightorange">
+          <h2 class="left">Online Classes</h2>
+        </div>
+        <div id="projects" class="lightorange">
+          <hr><h2>Projects</h2>
+        </div>
+        <div id="workExperience" class="lightorange">
+          <hr><h2>Work Experience</h2>
+        </div>
+        <div id="education" class="lightorange">
+          <hr><h2>Education</h2>
+        </div>
+        <div id="mapDiv" class="lightorange">
+          <hr><h2>Where I've Lived and Worked</h2>
+        </div>
+      </div>
+      <div id="lets-connect" class="dark-gray">
+        <h2 class="orange center-text">Let's Connect</h2>
+          <ul id="footerContacts" class="flex-box">
+          </ul>
+        <div class="rows">
+          <div class="col-xs-12">
+            <a href="https://github.com/arimpact" class="zocial-github margin-right">Github</a>
+            <a href="mailto:mingdash@gmail.com" class="zocial-gmail margin-right">Email</a>
+            <a href="https://www.linkedin.com/profile/view?id=AAkAAAEndKsBkCcmBp7aL9yUxRET7O8FaxQgSvQ&authType=NAME_SEARCH&authToken=jy5N&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A19362987%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1441261774565%2Ctas%3Asteve%20" class="zocial-linkedin margin-right">Linkedin</a>
+          </div>
+        </div>
+      </div>
     </div>
-    <div style='clear: both;'></div>
-    <div id="workExperience" class='gray'>
-      <h2>Work Experience</h2>
-    </div>
-    <div id="projects">
-      <h2>Projects</h2>
-    </div>
-    <div id="education" class='gray'>
-      <h2>Education</h2>
-    </div>
-    <div id="mapDiv">
-      <h2>Where I've Lived and Worked</h2>
-    </div>
-    <div id="letsConnect" class='dark-gray'>
-      <h2 class='orange center-text'>Let's Connect</h2>
-        <ul id="footerContacts" class="flex-box">
-      </ul>
-    </div>
-  </div>
 
   <!--
   The next line tells the browser where to download the JavaScript file you'll be
@@ -129,8 +168,8 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
     if(document.getElementsByClassName('education-entry').length === 0) {
       document.getElementById('education').style.display = 'none';
     }
-    if(document.getElementsByClassName('flex-item').length === 0) {
-      document.getElementById('letsConnect').style.display = 'none';
+    if(document.getElementsByClassName('online-entry').length === 0) {
+      document.getElementById('lets-connect').style.display = 'none';
     }
     if(document.getElementById('map') === null) {
       document.getElementById('mapDiv').style.display = 'none';
