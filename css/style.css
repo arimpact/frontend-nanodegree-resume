@@ -1,0 +1,334 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+  /* zocial */
+  [class*="zocial-"]:before {
+    font-family: 'zocial', sans-serif;
+    text-shadow: 3px 3px 3px;
+    margin-right: 1em;
+  }
+
+*{
+  /*border: 1px solid;*/
+}
+
+.container {
+  overflow:hidden;
+}
+
+body,
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding:0;
+  margin:0;
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+a#menu svg{
+  width: 40px;
+}
+
+#name {
+  text-align: center;
+  margin-right: 100px;
+}
+
+.clear-fix {
+  overflow: auto;
+}
+
+.education-entry,
+.work-entry,
+.project-entry {
+  padding: 0 5%;
+}
+
+h1 {
+  font-size: 40px;
+  color: #f5a623;
+  line-height: 48px;
+  display: block;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+  line-height: 29px;
+  padding: 10px;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 20px;
+  color: #000;
+  line-height: 22px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #4a4a4a;
+  line-height: 17px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  padding:10px 5%;
+
+}
+
+hr{
+  margin: 0;
+}
+
+.date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: left;
+}
+
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: right;
+}
+
+nav {
+  width: 250px;
+  height: 100%;
+  position: absolute;
+  transform: translate(-300px, 0);
+  translation: transform .4s ease;
+  z-index: 10;
+}
+
+#drawer {
+  position: fixed;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+
+nav.open {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+p {
+  font-size: 14px;
+  color: #333;
+  line-height: 21px;
+}
+
+a {
+  color: #1199c3;
+  text-decoration: none;
+  text-align: center;
+}
+
+.lightorange {
+  background-color: #FFEFD5;
+}
+
+.welcome-message {
+  font-style: italic;
+  font-size: 18px;
+  color: #f3f3f3;
+  line-height: 28px;
+}
+
+.margin-right {
+  margin-right: 20px;
+  font-size: 24px;
+}
+
+#skills-h3 {
+  color: #f5ae23;
+  display: none;
+}
+
+#online-course {
+}
+
+.online-entry {
+  width: 100%;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.orange {
+  background-color: #f5ae23;
+}
+
+.orange-text {
+  color: #f5ae23;
+}
+
+.rows {
+  text-align: center;
+}
+
+.titles {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#topContacts {
+}
+
+.white-text {
+  font-weight: bold;
+  color: #fff;
+}
+
+.gray {
+  background-color: #f3f3f3;
+  padding-bottom: 10px;
+  clear:both;
+}
+
+.dark-gray {
+  background-color: #4a4a4a;
+}
+
+.nametitle {
+  width: 100%;
+}
+#header {
+  padding-top: 50px;
+}
+
+.darkgray {
+    background-color: #484848;
+}
+
+.fm {
+
+  margin: auto;
+}
+
+#fixed-elem{
+  display: flex;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.center-content {
+  padding: 1% 5%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.biopic {
+  float: left;
+  padding: 10px;
+  max-width: 100%;
+  display: none;
+}
+
+img {
+  padding: 10px;
+}
+
+span {
+  padding: 5px;
+}
+
+#lets-connect {
+  text-align: center;
+}
+
+/* Media queries to handle various device widths */
+
+@media only screen and (max-width: 1024px) {
+  #lets-connect {
+    margin-top: 5%;
+  }
+}
+
+
+@media only screen and (max-width: 750px) {
+  #lets-connect {
+    margin-top: 10%;
+  }
+  .biopic {
+    width: 150px;
+  }
+  .online-entry {
+    text-align: center;
+  }
+  .welcome-message {
+    display: none;
+  }
+}
+
+#map {
+  display: block;
+  height: 100%;
+}
+
+#mapDiv {
+/*  border: 1px solid;*/
+  height: 400px;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+@media only screen and (min-width: 750px) {
+  #skills-h3,
+  .biopic {
+    display: block;
+  }
+
+  .online-entry {
+    width: 33.33%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+
+  .bodysec{
+    width: 75%;
+    margin: 0 auto;
+    border-right: 1px solid;
+    border-left: 1px solid;
+  }
+
+}
+
+.gm-style-iw {
+    font-family: "Times New Roman", Times, serif;
+    color: red;
+}
+
+.row {
+  margin-right: auto;
+  margin-left: auto;
+}
