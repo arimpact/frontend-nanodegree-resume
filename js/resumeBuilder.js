@@ -47,7 +47,7 @@ var project = {"pro": [
 	"date": "September 2015"},
 	{"name": "My Resume",
 	"descript": {"part1": "Created personal resume using javascript knowledge learned in the course.",
-				"part2": "Learned HTML, CSS, basic Javascript and jQuery to manipulate the HTML DOM.",
+				"part2": "Used HTML, CSS, basic Javascript and jQuery to manipulate the HTML DOM.",
 				"part3": "Used the Google Maps API provided by Udacity to show locations where I lived and worked."},
 	"date": "August 2015"},
 	{"name": "My Portfolio",
