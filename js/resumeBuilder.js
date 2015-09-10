@@ -25,7 +25,7 @@ var work = {
 		"city": "Mountain View, CA",
 		"role": "Data Analyst",
 		"year": "2015 - Present",
-		"descript": {"part1": "Assist in the support of a global cross-functional team of regional leads, coordinators, and technicians for the Chrome team through the creation of business operation tools for data analysis, and metrics. ",
+		"descript": {"part1": "Assist in the support of a global cross-functional team of regional leads, coordinators, and technicians for the Chrome team through the creation of business operation tools for data analysis and metrics. ",
 					"part2": "Using Google App script, created many business applications that would automate tasks for data manipulation, automatic emailing, work process ticket creation, and data analysis.",
 					"part3": "Leveraged Google internal databases (Dremel and PLX) and other APIs to create analytical reports and dashboards."}
 		},
@@ -35,7 +35,7 @@ var work = {
 		"year": "2011 - 2014",
 		"descript": {"part1": "Generated weekly and monthly automation reports, utilizing large database SQL pulls.",
 					"part2": "Responsible in all phase of excel tool project lifecycle, from specifications and coding through deployment, testing, debugging, documentation, and maintenance.",
-					"part3": "Administering support for the Allocation Department in the form of report creation/execution, analysis and allocation system management."}
+					"part3": "Administered support for the Allocation Department in the form of report creation/execution, analysis and allocation system management."}
 		}]
 }
 
