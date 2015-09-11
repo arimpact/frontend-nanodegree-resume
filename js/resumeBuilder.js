@@ -181,17 +181,13 @@ menu.addEventListener('click', function(e) {
 		drawer.classList.toggle('open');
 		e.stopPropagation();
 		document.body.style.overflow = "hidden";
-		// document.getElementById('header').style.padding = "0px";
-		// document.getElementById('drawer').style.display = "fixed";
-		// document.getElementById('fixed-elem').style.position = "static";
+		console.log(e);
+		document.getElementById('projects').style.backgroundColor = "red";
 	});
 
 main.addEventListener('click', function() {
 	drawer.classList.remove('open');
 	document.body.style.overflow = "visible";
-	// // document.getElementById('header').style.padding = "50px 0 0 0";
-	// document.getElementById('fixed-elem').style.position = "fixed";
-	// document.getElementById('menu').style.display = "absolute";
 });
 
 if ($(window).width() < 750) {
