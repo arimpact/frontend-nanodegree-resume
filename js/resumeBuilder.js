@@ -194,3 +194,7 @@ main.addEventListener('click', function() {
 	// document.getElementById('menu').style.display = "absolute";
 });
 
+if ($(window).width() < 750) {
+   $(".hr1").remove();
+}
+

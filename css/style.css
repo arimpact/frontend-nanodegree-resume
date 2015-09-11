@@ -52,7 +52,6 @@ a#menu svg{
 h1 {
   font-size: 40px;
   color: #f5a623;
-  line-height: 48px;
   display: block;
   text-align: center;
 }
@@ -215,8 +214,7 @@ a {
     background-color: #484848;
 }
 
-.fm {
-
+.namedesc {
   margin: auto;
 }
 
@@ -276,12 +274,24 @@ span {
   #lets-connect {
     margin-top: 10%;
   }
-  .biopic {
-    width: 150px;
+
+  #header {
+    display:flex;
   }
+
+  .namedesc {
+    font-size: 18px;
+  }
+
   .online-entry {
     text-align: center;
   }
+
+  #mapDiv {
+   max-height: 25%;
+   margin: auto;
+  }
+
   .welcome-message {
     display: none;
   }
@@ -312,7 +322,6 @@ span {
     margin-bottom: 20px;
     text-align: center;
   }
-
 
   .bodysec{
     width: 75%;
