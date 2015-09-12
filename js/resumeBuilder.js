@@ -25,7 +25,7 @@ var work = {
 		"city": "Mountain View, CA",
 		"role": "Data Analyst",
 		"year": "2015 - Present",
-		"descript": {"part1": "Assist in the support of a global cross-functional team of regional leads, coordinators, and technicians for the Chrome team through the creation of business operation tools for data analysis and metrics. ",
+		"descript": {"part1": "Assist in the support of a global cross-functional team of regional leads, coordinators, and technicians for the Chrome team through the creation of business operation tools for data analysis, and metrics. ",
 					"part2": "Using Google App script, created many business applications that would automate tasks for data manipulation, automatic emailing, work process ticket creation, and data analysis.",
 					"part3": "Leveraged Google internal databases (Dremel and PLX) and other APIs to create analytical reports and dashboards."}
 		},
@@ -35,7 +35,7 @@ var work = {
 		"year": "2011 - 2014",
 		"descript": {"part1": "Generated weekly and monthly automation reports, utilizing large database SQL pulls.",
 					"part2": "Responsible in all phase of excel tool project lifecycle, from specifications and coding through deployment, testing, debugging, documentation, and maintenance.",
-					"part3": "Administered support for the Allocation Department in the form of report creation/execution, analysis and allocation system management."}
+					"part3": "Administering support for the Allocation Department in the form of report creation/execution, analysis and allocation system management."}
 		}]
 }
 
@@ -47,7 +47,7 @@ var project = {"pro": [
 	"date": "September 2015"},
 	{"name": "My Resume",
 	"descript": {"part1": "Created personal resume using javascript knowledge learned in the course.",
-				"part2": "Learned HTML, CSS, basic Javascript and jQuery to manipulate the HTML DOM.",
+				"part2": "Used HTML, CSS, basic Javascript and jQuery to manipulate the HTML DOM.",
 				"part3": "Used the Google Maps API provided by Udacity to show locations where I lived and worked."},
 	"date": "August 2015"},
 	{"name": "My Portfolio",
@@ -181,16 +181,19 @@ menu.addEventListener('click', function(e) {
 		drawer.classList.toggle('open');
 		e.stopPropagation();
 		document.body.style.overflow = "hidden";
-		// document.getElementById('header').style.padding = "0px";
-		// document.getElementById('drawer').style.display = "fixed";
-		// document.getElementById('fixed-elem').style.position = "static";
+		console.log(e);
 	});
+
+
+$("#drawer ul li a").click(function() {
+	drawer.classList.remove('open');
+});
 
 main.addEventListener('click', function() {
 	drawer.classList.remove('open');
 	document.body.style.overflow = "visible";
-	// // document.getElementById('header').style.padding = "50px 0 0 0";
-	// document.getElementById('fixed-elem').style.position = "fixed";
-	// document.getElementById('menu').style.display = "absolute";
 });
 
+if ($(window).width() < 750) {
+   $(".hr1").remove();
+}
