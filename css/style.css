@@ -49,6 +49,10 @@ a#menu svg{
   padding: 0 5%;
 }
 
+.bottom-margin {
+  margin-bottom: 10px;
+}
+
 h1 {
   font-size: 40px;
   color: #f5a623;

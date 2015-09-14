@@ -34,14 +34,14 @@ var HTMLworkEmployer = '<div class="titles">%data%';
 var HTMLworkTitle = ' - %data%</div>';
 var HTMLworkDates = '<div class="date-text">%data%</div><br>';
 var HTMLworkLocation = '<div class="location-text">%data%</div>';
-var HTMLworkbullet = '<li>%data%</li>'
+var HTMLworkbullet = '<li>%data%</li>';
 var HTMLworkDescription = '<p><br>%data%</p>';
 
 var HTMLprojectStart = '<div class="project-entry"></div>';
 var HTMLprojectTitle = '<div class="titles">%data%</div>';
 var HTMLprojectDates = '<div class="date-text">%data%</div><br>';
 var HTMLprojectDescription = '<p><br>%data%</p>';
-var HTMLprojectbullet = '<li>%data%</li>'
+var HTMLprojectbullet = '<li>%data%</li>';
 var HTMLprojectImage = '<img src="%data%">';
 
 var HTMLschoolStart = '<div class="education-entry"></div>';
@@ -51,8 +51,8 @@ var HTMLschoolDates = '<div class="date-text">%data%</div><br><br>';
 var HTMLschoolLocation = '<div class="location-text">%data%</div>';
 var HTMLschoolMajor = '<em><br>Major: %data%</em>';
 
-var HTMLonlineRow = '<div class="row"></div>'
-var HTMLonlineStart = '<div class="online-entry"></div>'
+var HTMLonlineRow = '<div class="row"></div>';
+var HTMLonlineStart = '<div class="online-entry"></div>';
 var HTMLonlineClasses = '<h3>Online Classes</h3><hr>';
 var HTMLonlineTitle = '<div class="titles">%data%</div>';
 var HTMLonlineSchool = '<a href="%data%" class="links">%data%</a>';
