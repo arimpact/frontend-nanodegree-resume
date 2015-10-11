@@ -181,8 +181,6 @@ menu.addEventListener('click', function(e) {
 		drawer.classList.toggle('open');
 		e.stopPropagation();
 		document.body.style.overflow = "hidden";
-		console.log(e);
-		document.getElementById('projects').style.backgroundColor = "red";
 	});
 
 main.addEventListener('click', function() {
