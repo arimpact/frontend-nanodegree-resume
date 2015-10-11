@@ -33,7 +33,7 @@ var work = {
 		"city": "Dublin, CA",
 		"role": "System Administion Analyst",
 		"year": "2011 - 2014",
-		"descript": {"part1": "Generated weekly and monthly automation reports, utilizing large database SQL pulls.",
+		"descript": {"part1": "Maintained weekly and monthly automation reports using Visual Basic Application scripting and utilizing large database SQL pulls.",
 					"part2": "Responsible in all phase of excel tool project lifecycle, from specifications and coding through deployment, testing, debugging, documentation, and maintenance.",
 					"part3": "Administering support for the Allocation Department in the form of report creation/execution, analysis and allocation system management."}
 		}]
