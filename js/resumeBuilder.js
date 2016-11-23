@@ -35,7 +35,7 @@ var work = {
 					"part2": "Analyze and present quantitative survey data through Excel.",
 					"part3": "Highlight significant findings in reports and presentations utilizing clear charts and tables."}
 		},
-		{"name": "ROSS STORES INC",
+		{"name": "Ross Stores INC",
 		"city": "Dublin, CA",
 		"role": "System Administion Analyst",
 		"year": "Oct 2011 - March 2014",
