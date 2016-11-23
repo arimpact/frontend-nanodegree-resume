@@ -19,30 +19,30 @@ var education = {
 };
 
 var work = {
-// 		"company": [{"name": "Google Inc - (through Astreya)",
-// 		"city": "Mountain View, CA",
-// 		"role": "Data Analyst",
-// 		"year": "Jan 2015 - Present",
-// 		"descript": {"part1": "Assist in the support of a global cross-functional team of regional leads, coordinators, and technicians for the Chrome team through the creation of business operation tools for data analysis, and metrics. ",
-// 					"part2": "Using Google App script, created many business applications that would automate tasks for data manipulation, automatic emailing, work process ticket creation, and data analysis.",
-// 					"part3": "Leveraged Google internal databases (Dremel and PLX) and other APIs to create analytical reports and dashboards."}
-// 		},
-// 		{"name": "VG Market",
-// 		"city": "Dublin, CA",
-// 		"role": "Quantitative Research Analyst",
-// 		"year": "April 2014 - Dec 2014",
-// 		"descript": {"part1": "Provide clients with direct feedback on quantitative and coding-related requests.",
-// 					"part2": "Analyze and present quantitative survey data through Excel.",
-// 					"part3": "Highlight significant findings in reports and presentations utilizing clear charts and tables."}
-// 		},
-// 		{"name": "Ross Stores INC",
-// 		"city": "Dublin, CA",
-// 		"role": "System Administion Analyst",
-// 		"year": "Oct 2011 - March 2014",
-// 		"descript": {"part1": "Generated weekly and monthly automation reports, utilizing large database SQL pulls.",
-// 					"part2": "Responsible in all phase of excel tool project lifecycle, from specifications and coding through deployment, testing, debugging, documentation, and maintenance.",
-// 					"part3": "Administering support for the Allocation Department in the form of report creation/execution, analysis and allocation system management."}
-// 		}]
+		"company": [{"name": "Google Inc - (through Astreya)",
+		"city": "Mountain View, CA",
+		"role": "Data Analyst",
+		"year": "Jan 2015 - Present",
+		"descript": {"part1": "Assist in the support of a global cross-functional team of regional leads, coordinators, and technicians for the Chrome team through the creation of business operation tools for data analysis, and metrics. ",
+					"part2": "Using Google App script, created many business applications that would automate tasks for data manipulation, automatic emailing, work process ticket creation, and data analysis.",
+					"part3": "Leveraged Google internal databases (Dremel and PLX) and other APIs to create analytical reports and dashboards."}
+		},
+		{"name": "VG Market",
+		"city": "Dublin, CA",
+		"role": "Quantitative Research Analyst",
+		"year": "April 2014 - Dec 2014",
+		"descript": {"part1": "Provide clients with direct feedback on quantitative and coding-related requests.",
+					"part2": "Analyze and present quantitative survey data through Excel.",
+					"part3": "Highlight significant findings in reports and presentations utilizing clear charts and tables."}
+		},
+		{"name": "Ross Stores INC",
+		"city": "Dublin, CA",
+		"role": "System Administion Analyst",
+		"year": "Oct 2011 - March 2014",
+		"descript": {"part1": "Generated weekly and monthly automation reports, utilizing large database SQL pulls.",
+					"part2": "Responsible in all phase of excel tool project lifecycle, from specifications and coding through deployment, testing, debugging, documentation, and maintenance.",
+					"part3": "Administering support for the Allocation Department in the form of report creation/execution, analysis and allocation system management."}
+		}]
 };
 
 var project = {"pro": [
