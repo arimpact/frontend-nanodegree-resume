@@ -29,6 +29,14 @@ var work = {
 					"part2": "Using Google App script, created many business applications that would automate tasks for data manipulation, automatic emailing, work process ticket creation, and data analysis.",
 					"part3": "Leveraged Google internal databases (Dremel and PLX) and other APIs to create analytical reports and dashboards."}
 		},
+		{"name": "VG Market",
+		"city": "Dublin, CA",
+		"role": "Quantitative Research Analyst",
+		"year": "April 2014 - Dec 2014",
+		"descript": {"part1": "Provide clients with direct feedback on quantitative and coding-related requests.",
+					"part2": "Analyze and present quantitative survey data through Excel.",
+					"part3": "Highlight significant findings in reports and presentations utilizing clear charts and tables."}
+		},
 		{"name": "ROSS STORES INC",
 		"city": "Dublin, CA",
 		"role": "System Administion Analyst",
